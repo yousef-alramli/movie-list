@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movie List</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Movie List</h1>
+    </header>
+
+    <main>
+        <section id="sec1">
+            <h2>New movie</h2>
+            <form id="form">
+                <label class="label" for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="name" class="input">
+                <br>
+                <label class="label" for="img">Image</label>
+                <br>
+                <select name="img" id="img" class="input">
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="animation">Animation</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="detective">Detective</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="history">History</option>
+                    <option value="horror">Horror</option>
+                    <option value="musical">Musical</option>
+                    <option value="pirate">Pirate</option>
+                    <option value="romantic">Romantic</option>
+                    <option value="sci-fi">Sci-fi</option>
+                    <option value="war">War</option>
+                    <option value="western">Western</option>
+                </select>
+                <br>
+                <label class="label" for="release">Release</label>
+                <br>
+                <input type="number" name="release" id="release" class="input">
+                <br>
+                <input type="submit" value="Save" id="save">
+                
+
+
+            </form>
+            <button id="clear">Clear Ls</button>
+        </section>
+
+        <section id="sec2">
+            <table id="table">
+
+            </table>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="app.js"></script>
+
+</html>
